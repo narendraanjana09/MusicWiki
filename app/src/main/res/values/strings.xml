@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MusicWiki</string>
+    <string name="app_description">Welcome, discover information about your favorite music genres, albums, artists, and tracks.</string>
+    <string name="available_genres">Available Genres</string>
+    <string name="genres">Genres</string>
+    <string name="followeres">Followeres</string>
+    <string name="play_count">Play Count</string>
+    <string name="top_tracks">Top Tracks</string>
+    <string name="top_albums">Top Albums</string>
+    <string name="top_artists">Top Artists</string>
+    <string name="read_more">Read More</string>
+
+</resources>

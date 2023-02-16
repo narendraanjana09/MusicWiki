@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentGenres">
+
+    <fragment
+        android:id="@+id/fragmentGenres"
+        tools:layout="@layout/fragment_genres"
+        android:name="com.nsa.musicwiki.ui.frags.FragmentGenres"
+        android:label="FragmentGenres" >
+        <action
+            android:id="@+id/action_fragmentGenres_to_fragmentGenreDetails"
+            app:destination="@id/fragmentGenreDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentGenreDetails"
+        tools:layout="@layout/fragment_genre_details"
+        android:name="com.nsa.musicwiki.ui.frags.FragmentGenreDetails"
+        android:label="FragmentGenreDetails">
+        <argument android:name="genre_name"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_fragmentGenreDetails_to_fragmentAlbumDetails"
+            app:destination="@id/fragmentAlbumDetails" />
+        <action
+            android:id="@+id/action_fragmentGenreDetails_to_fragmentArtistDetails"
+            app:destination="@id/fragmentArtistDetails" />
+    </fragment>
+    <dialog
+        android:id="@+id/fragmentProgress"
+        tools:layout="@layout/fragment_progress"
+        android:name="com.nsa.musicwiki.extra.FragmentProgress"
+        android:label="FragmentProgress" />
+    <fragment
+        android:id="@+id/fragmentAlbumDetails"
+        tools:layout="@layout/fragment_album_details"
+        android:name="com.nsa.musicwiki.ui.frags.FragmentAlbumDetails"
+        android:label="FragmentAlbumDetails" >
+        <argument android:name="album_name"
+            app:argType="string"/>
+        <argument android:name="artist_name"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_fragmentAlbumDetails_to_fragmentGenreDetails"
+            app:destination="@id/fragmentGenreDetails" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentArtistDetails"
+        tools:layout="@layout/fragment_artist_details"
+        android:name="com.nsa.musicwiki.ui.frags.FragmentArtistDetails"
+        android:label="FragmentArtistDetails" >
+        <argument android:name="artist_name"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_fragmentArtistDetails_to_fragmentGenreDetails"
+            app:destination="@id/fragmentGenreDetails" />
+        <action
+            android:id="@+id/action_fragmentArtistDetails_to_fragmentAlbumDetails"
+            app:destination="@id/fragmentAlbumDetails" />
+    </fragment>
+</navigation>
