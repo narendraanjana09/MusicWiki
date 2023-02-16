@@ -5,8 +5,8 @@ MusicWiki is an Android app that allows users to explore top genres, albums, tra
 # Features
 
 The following are the features of the MusicWiki app:
-*Users can see all the top genres that are currently trending.
-*When the user clicks on a genre, they will navigate to the genre detail page where they can see the genre description, list of top albums, list of top tracks, and list of top artists.
+* Users can see all the top genres that are currently trending.
+* When the user clicks on a genre, they will navigate to the genre detail page where they can see the genre description, list of top albums, list of top tracks, and list of top artists.
 *Clicking on an album from the top albums will show the album details page where the user can see the album name, artist name, total play count, published date, the album description, and genres in that album. From here, clicking on the genre will again launch the same flow with genre details.
 *Clicking on an artist from the top artists will show the artist detail screen where the user can see the artist's name, image, artist bio, total followers, total play count, list of top albums, list of top tracks, and list of genres.
 *In artist info, clicking on albums will navigate to the album details page.
