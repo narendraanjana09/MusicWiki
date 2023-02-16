@@ -4,7 +4,7 @@ MusicWiki is an Android app that allows users to explore top genres, albums, tra
 
 # Features
 
-The following are the features of the MusicWiki app:
+The following are the features of the app:
 * Users can see all the top genres that are currently trending.
 * When the user clicks on a genre, they will navigate to the genre detail page where they can see the genre description, list of top albums, list of top tracks, and list of top artists.
 * Clicking on an album from the top albums will show the album details page where the user can see the album name, artist name, total play count, published date, the album description, and genres in that album. From here, clicking on the genre will again launch the same flow with genre details.
@@ -13,7 +13,7 @@ The following are the features of the MusicWiki app:
 * In artist info, clicking on the genre will navigate to the genre details page.
 
 # Steps Taken
-The following are the steps that I have taken while making the MusicWiki app:
+The following are the steps that I have taken while making the app:
 
 * I went through the requirements and understood all the details, including design files.
 * I checked the Last.fm API documentation and created an account to get the API key.
@@ -26,17 +26,17 @@ The following are the steps that I have taken while making the MusicWiki app:
 
 # Architecture
 
-I have used the MVVM (Model-View-ViewModel) architecture pattern for developing the MusicWiki app. This architecture pattern helps to separate the user interface (View) from the business logic (ViewModel) and the data (Model) layer. This separation of concerns makes the app easier to maintain and test.
+MVVM architecture pattern is used for developing the app.
 
 # Decisions & Assumptions Made
 
-The following are the decisions and assumptions that I made while developing the MusicWiki app:
+The following are the decisions and assumptions that I made while developing the app:
 
 * For placing the "read more" option, if we get a lengthy description, it doesn't seem accurate to display that much text on the direct screen. So, I added the "read more" option by which the user will see a bottom sheet of the full description.
 * While testing different APIs, I also got to know that for some artists, their wiki or bio is not in the response, which can cause some bugs. So, I have added some null checks for that.
 
 # Figma Design Image
 
-Here's the Figma design image that I have used for developing the MusicWiki app:
+Here's the Figma design image that I have designed and used for developing the app:
 
 ![Frame 366](https://user-images.githubusercontent.com/60137237/219352338-ded4d0c8-b3c2-4830-8a46-9095bee4d69d.png)
