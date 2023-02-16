@@ -1,6 +1,6 @@
 # MusicWiki App
 
-MusicWiki is an Android app that allows users to explore top genres, albums, tracks, and artists in the music industry. The app uses the Last.fm API to fetch data about various genres, albums, and artists.
+MusicWiki is an Android app that allows users to explore top genres, albums, tracks, and artists. The app uses the Last.fm API to fetch data about various genres, albums, and artists.
 
 # App Link
 https://github.com/narendraanjana09/MusicWiki/blob/master/app-debug.apk
@@ -23,9 +23,10 @@ The following are the steps that I have taken while making the app:
 * I tested all the APIs required on Postman to ensure that they are working correctly.
 * I looked for design ideas related to music apps on various websites.
 * I got the idea of showing only a little description text and adding the text "read more" for a user to open a bottom sheet where they can read the full description.
-* I designed some of the app's screens myself on Figma.
+* I designed the app's screens myself on Figma.
 * I started developing the app and got the necessary resources, such as Retrofit and Navigation framework.
 * I created layout files based on my designs.
+* I have also tested the app based on api responses and for multiple screen sizes.
 
 # Architecture
 
