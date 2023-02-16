@@ -2,6 +2,9 @@
 
 MusicWiki is an Android app that allows users to explore top genres, albums, tracks, and artists in the music industry. The app uses the Last.fm API to fetch data about various genres, albums, and artists.
 
+# App Link
+https://github.com/narendraanjana09/MusicWiki/blob/master/app-debug.apk
+
 # Features
 
 The following are the features of the app:
